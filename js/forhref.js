@@ -10,6 +10,16 @@ function CoworkingSpaceSynerge() {
     location.href = "https://www.synergeworkspace.com/coworkingspace.html";
 }
 
+function    taketoHsr() {
+    location.href = "/synrg/hsr.html";
+}
+function    taketoJay() {
+    location.href = "/synrg/Jayanagar.html";
+}
+function    taketoHennur() {
+    location.href = "/synrg/hennur.html";
+}
+
 function PrivateOfficeSynerge() {
     location.href = "https://www.synergeworkspace.com/privateoffice.html";
 }

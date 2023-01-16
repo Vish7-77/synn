@@ -1,4 +1,12 @@
-@font-face {
+*{
+  
+
+  font-family: "Source Sans Pro", Arial, sans-serif;
+
+
+}  
+  
+  @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix")
