@@ -13,23 +13,35 @@ width: 95%
 
 
 .makingFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    display: flex !important;
-align-items: center;
-justify-content: center;
-background: rgb(2,0,36);
-background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(57,196,180,1) 0%, rgba(75,92,93,1) 49%, rgba(255,0,10,1) 100%);
+  height: 60%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(57,196,180,1) 0%, rgba(75,92,93,1) 49%, rgba(255,0,10,1) 100%);
+
 
 
 }
 
 
+.width-60{
+  display: none;
+}
+
 #dyno{
+  width: 100%;
     display: flex ;
     flex-direction: column;
     height: 130rem !important;
   
 }
+
+
 
 
 .mainanimationcenter{
@@ -102,7 +114,7 @@ background-size: cover !important;
 
 .hsr12{
   margin-bottom: 100px;
-  height: 75rem !important;
+  height: 65rem !important;
   flex-direction: column !important; 
   justify-content: end !important;
   display: flex !important;
@@ -125,6 +137,7 @@ background-size: cover !important;
       justify-content:flex-end;
       align-items: center;
 }
+
 
 
 .hennur1{
@@ -157,6 +170,7 @@ background-size: cover !important;
   }
   .hsr12{
     display: flex !important;
+        margin-top: 30px;
   }
   .olb{
     display: flex !important;
@@ -169,7 +183,17 @@ background-size: cover !important;
     width: 94%;
     
     
-    }
+    
+  }
+
+  .width-50{
+    display: none !important;
+  }
+
+  .width-60{
+    display: block;
+    width:79%;
+  }
 
 
 .hennur1{
@@ -183,6 +207,9 @@ background-size: cover !important;
 }  
 
 
-
+.mainflez>img {
+  width: 45%;
+  height: 80%;
+}
 
   }
