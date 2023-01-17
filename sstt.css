@@ -1,0 +1,151 @@
+
+*{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+
+.width-50 {
+
+width: 95%
+
+
+}
+
+
+.makingFlex{
+
+    display: flex !important;
+align-items: center;
+justify-content: center;
+background: rgb(2,0,36);
+background: linear-gradient(142deg, rgba(2,0,36,1) 0%, rgba(57,196,180,1) 0%, rgba(75,92,93,1) 49%, rgba(255,0,10,1) 100%);
+
+
+}
+
+
+#dyno{
+    display: flex ;
+    flex-direction: column;
+    height: 130rem !important;
+  
+}
+
+
+.mainanimationcenter{
+height: 3px ;
+width: 100%;
+display: flex;
+background-color: red;
+
+
+}
+
+
+.mainflez{
+    display: flex;
+   
+    width: 100%;
+
+     height: 520px;
+
+     justify-content: space-evenly;
+     align-items: center;
+
+}   
+
+.mainflez>img{
+width: 30%;
+height: 80%;
+
+
+}
+.mainflez>img:hover{
+transition: all 0.4s ease-in-out;
+scale: 1.1;
+
+
+
+}
+
+
+
+.blo{
+
+
+    height: 76rem !important;
+    flex-direction: column !important; 
+    justify-content: end !important;
+    display: flex !important;
+ background-image: url("/synrg/jaynaDesk.png") !important;
+ background-position: center !important;
+ background-repeat: no-repeat !important;
+ background-size: cover !important;
+    align-items: center !important;
+
+}
+
+
+
+.hennur{
+    height: 63rem;
+      flex-direction: column; 
+      display: flex !important;
+      justify-content:flex-end;
+      align-items: center;
+}
+
+
+.hennur1{
+    display: none !important;
+    padding-top: 29px;
+}
+
+
+.olb{
+    margin-bottom: 100px;
+    height: 106rem !important;
+    flex-direction: column !important; 
+    justify-content: end !important;
+    display: flex !important;
+ background-image: url("/synrg/jaymobile.png") !important;
+ background-position: center !important;
+ background-repeat: no-repeat !important;
+ background-size: cover !important;
+    align-items: center !important;
+    display: none !important;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .blo{
+    display: none !important;
+  }
+  .olb{
+    display: flex !important;
+  }
+.hennur{
+    display: none !important; 
+}
+.width-50 {
+
+    width: 94%;
+    
+    
+    }
+
+
+.hennur1{
+    display: flex 
+    !important;
+}
+
+.mainflez{
+  flex-direction: column;
+
+}  
+
+
+
+
+  }

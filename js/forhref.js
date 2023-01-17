@@ -11,13 +11,13 @@ function CoworkingSpaceSynerge() {
 }
 
 function    taketoHsr() {
-    location.href = "/synrg/hsr.html";
+    location.href = "/hsr.html";
 }
 function    taketoJay() {
-    location.href = "/synrg/Jayanagar.html";
+    location.href = "/Jayanagar.html";
 }
 function    taketoHennur() {
-    location.href = "/synrg/hennur.html";
+    location.href = "/hennur.html";
 }
 
 function PrivateOfficeSynerge() {
