@@ -37,7 +37,7 @@ width: 95%
   width: 100%;
     display: flex ;
     flex-direction: column;
-    height: 144rem !important;
+    height: 144rem ;
   
 }
 
@@ -149,7 +149,7 @@ background-size: cover !important;
 .olb{
     margin-bottom: 100px;
     margin-top: 50px;
-    height: 75rem !important;
+    height: 89rem !important;
     flex-direction: column !important; 
     justify-content: end !important;
     display: flex !important;
@@ -204,25 +204,25 @@ background-size: cover !important;
 
 .mainflez{
   padding-top: 50px;
-  height: 50%;
+  height: 70%;
   flex-direction: column;
 
 }  
 
 
 .mainflez>img {
-  width: 56%;
-  height: 80%;
+  width: 100%;
+  height: 30%;
 }
 
 
 .makingFlex{
-  height:50%
+  height:30%
 }
 
 
 
 #dyno{
-  height:170rem !important
+  height:300rem !important
 }
   }
