@@ -37,7 +37,7 @@ width: 95%
   width: 100%;
     display: flex ;
     flex-direction: column;
-    height: 130rem !important;
+    height: 144rem !important;
   
 }
 
@@ -148,11 +148,12 @@ background-size: cover !important;
 
 .olb{
     margin-bottom: 100px;
+    margin-top: 50px;
     height: 75rem !important;
     flex-direction: column !important; 
     justify-content: end !important;
     display: flex !important;
- background-image: url("/jaymobile.png") !important;
+ background-image: url("/jaymobilver.png") !important;
  background-position: center !important;
  background-repeat: no-repeat !important;
  background-size: cover !important;
@@ -202,14 +203,26 @@ background-size: cover !important;
 }
 
 .mainflez{
+  padding-top: 50px;
+  height: 50%;
   flex-direction: column;
 
 }  
 
 
 .mainflez>img {
-  width: 45%;
+  width: 50%;
   height: 80%;
 }
 
+
+.makingFlex{
+  height:50%
+}
+
+
+
+#dyno{
+  height:170rem !important
+}
   }
