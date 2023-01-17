@@ -127,8 +127,24 @@ background-size: cover !important;
 
 
 
+
+
+
+
+
 }
 
+
+
+
+
+
+.fullwidth{
+
+width:100rem !important;
+
+
+}
 
 .hennur{
     height: 63rem;
